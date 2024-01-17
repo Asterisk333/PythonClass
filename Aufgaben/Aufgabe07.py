@@ -1,8 +1,10 @@
 preis = 5.9
-name = "Sean"
+name = input("Ihr Name lautet: ")
+porzionen = 1
 
-porzionen = 6
+if name.lower() != "jerry":
+    porzionen = int(input("Anzahl Porzionen"))
 
-if name != "Jerry":
-    kosten = porzionen * preis
-    print('das essen Kostet', str(kosten))   
+kosten = porzionen * preis
+
+print('das essen Kostet', str(kosten))

@@ -1,6 +1,6 @@
-zahl = 8008
+zahl = int(input("Meine Zahl ist: "))
 
-if zahl % 2 == 0 :
+if zahl % 2 == 0:
     print('gerade')
-else :
+else:
     print('ungerade')
