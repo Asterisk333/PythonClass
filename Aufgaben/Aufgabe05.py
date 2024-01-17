@@ -1,14 +1,14 @@
-bewertung = 80
+bewertung = 55
 
 if bewertung < 25:
     print('F')
-elif bewertung >= 25 and bewertung < 45:
+elif 25 <= bewertung < 45:
     print('E')
-elif bewertung >= 45 and bewertung < 50:
+elif 45 <= bewertung < 50:
     print('D')
-elif bewertung >= 50 and bewertung < 60:
+elif 50 <= bewertung < 60:
     print('C')
-elif bewertung >= 60 and bewertung < 80:
+elif 60 <= bewertung < 80:
     print('B')
 else:
     print('A')
