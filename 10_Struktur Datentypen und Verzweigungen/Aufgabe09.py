@@ -1,6 +1,6 @@
 def main():
     hourlyRate, workingHours, weekDay, checkSlut, total = None, None, None, None, None
-    weekdays = ['Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag']
+    weekdays = ['montag', 'dienstag', 'mittwoch', 'donnerstag', 'freitag', 'samstag', 'sonntag']
 
     def validate_number_input(input):
         try:
@@ -11,7 +11,7 @@ def main():
 
     def validate_text_input(input):
         for weekday in weekdays:
-            if input == weekday:
+            if input.lower() == weekday:
                 return 1
 
     def print_sum(input):

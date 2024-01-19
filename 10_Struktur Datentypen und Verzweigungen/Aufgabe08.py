@@ -14,7 +14,7 @@ def main():
 
     def validate_text_input(input):
         for validOperator in validOperators:
-            if input == validOperator:
+            if input.lower() == validOperator:
                 return not int(input.isdigit())  # return turned true or false as we check for string and not int ++ left in cuz imo its cool
 
     def print_sum(input):
