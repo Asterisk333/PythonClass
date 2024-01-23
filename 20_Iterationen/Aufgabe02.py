@@ -1,5 +1,5 @@
 def main():
-    word, checkSlut, length = None, None, None
+    word, checkslut, length = None, None, None
     drow= ""
     letterlist = []
 
@@ -18,9 +18,9 @@ def main():
     def print_sum(input):
         print("Die invertierte Zeichenkette lautet: ", str(input))
 
-    while checkSlut != 1:
+    while checkslut != 1:
         word = input("Bitte geben Sie eine Zeichenkette ein: ")
-        checkSlut = validate_text_input(word)
+        checkslut = validate_text_input(word)
 
     length = len(word)
     convert_to_list(word)

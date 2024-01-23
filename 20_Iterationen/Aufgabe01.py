@@ -1,5 +1,5 @@
 def main():
-    number, result, checkSlut = None, None, None
+    number, result, checkslut = None, None, None
     fakultaet, counter = 1, 1
 
     def validate_number_input(input):
@@ -15,9 +15,9 @@ def main():
     def print_sum(input):
         print("Das ergebnis lautet: ", str(input))
 
-    while checkSlut != 1:
+    while checkslut != 1:
         number = input("Bitte geben Sie eine Natuerliche Zahl an: ")
-        checkSlut = validate_number_input(number)
+        checkslut = validate_number_input(number)
 
     number = convert_to_integer(number)
 
