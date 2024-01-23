@@ -10,9 +10,8 @@ def main():
             return 0
 
     def validate_text_input(input):
-        for weekday in weekdays:
-            if input.lower() == weekday:
-                return 1
+        if input.lower() in weekdays:
+            return 1
 
     def print_sum(input):
         print("Das ergebnis lautet: ", str(input))
