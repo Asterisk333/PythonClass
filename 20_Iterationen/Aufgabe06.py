@@ -17,8 +17,8 @@ def main():
 
     convert_to_list(numbers)
 
-    for i in range(int(numberlist[0]), int(numberlist[1])+1):
-        print(str(i), str(i ** 2))
+    for i in range(int(numberlist[0]), int(numberlist[1]) + 1):
+        print(i, i ** 2)
 
 
 if __name__ == '__main__':
