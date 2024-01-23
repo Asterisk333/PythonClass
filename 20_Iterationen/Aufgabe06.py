@@ -18,7 +18,7 @@ def main():
     convert_to_list(numbers)
 
     for i in range(int(numberlist[0]), int(numberlist[1])+1):
-        print("Das Quadrat von", str(i), "ist", str(i ** 2))
+        print(str(i), str(i ** 2))
 
 
 if __name__ == '__main__':
