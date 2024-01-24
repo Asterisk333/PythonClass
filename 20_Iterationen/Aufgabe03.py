@@ -4,7 +4,13 @@ def main():
     numberlist = []
 
     def validate_input(input):  # input has to be x-y
-        return input.__contains__("-")
+        if input.__contains__("-"):
+            try:
+                int(input.split("-")[0]) & int(input.split("-")[1])
+            except ValueError:
+                return False
+            else:
+                return True
 
     def convert_to_list(convertable):  # split and append to nuberlist
         convertable = convertable.split("-")
