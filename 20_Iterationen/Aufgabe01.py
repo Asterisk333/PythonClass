@@ -22,7 +22,7 @@ def main():
     number = convert_to_integer(number)
 
     while counter <= number:
-        fakultaet = fakultaet * counter
+        fakultaet *= counter
         print(str(counter) + "! : " + str(fakultaet))
         counter += 1
 

@@ -6,11 +6,10 @@ def main():
         if input.__contains__("-"):
             try:
                 int(input.split("-")[0]) & int(input.split("-")[1])
-            except:
+            except ValueError:
                 return False
             else:
-                if int(input.split("-")[0]) <= int(input.split("-")[1]):  # validate the user input x is smaller than y
-                    return 1
+                return True
 
     def convert_to_list(convertable):  # split and append to nuberlist
         convertable = convertable.split("-")
