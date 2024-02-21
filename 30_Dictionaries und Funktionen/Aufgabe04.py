@@ -8,6 +8,15 @@
 # Ergebnis:
 # {'name': 'Kelly', 'salary': 8000}
 
+def filter_dict(dict, keys):
+    result = {}
+
+    for key in keys:
+        value = dict.get(key)
+        result[key] = value
+
+    return result
+
 
 # ursprüngliches Dictionary
 sample_dict = {"name": "Kelly", "age": 25, "salary": 8000, "city": "New york"}
@@ -15,10 +24,4 @@ sample_dict = {"name": "Kelly", "age": 25, "salary": 8000, "city": "New york"}
 # Liste der Schlüssel
 keys = ["name", "salary"]
 
-result = {}
-
-for key in keys:
-    value = sample_dict.get(key)
-    result[key] = value
-
-print(result)
+print(filter_dict(sample_dict, keys))
