@@ -1,4 +1,5 @@
-Vorteile OOP
+# Vorteile OOP
+
 Warum also OOP verwenden? Warum nicht ein anderes Paradigma verwenden? Um es klar zu sagen: OOP ist weder besser noch
 schlechter als jedes andere Paradigma. Es gibt für alles Vor- und Nachteile. OOP hat zum Beispiel einige schöne
 Vorteile:

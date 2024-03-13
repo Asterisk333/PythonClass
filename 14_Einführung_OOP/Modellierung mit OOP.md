@@ -1,4 +1,5 @@
-Modellierung mit OOP
+# Modellierung mit OOP
+
 Schauen wir uns einen manuellen Ablauf an, mit dem viele Unternehmen zu kämpfen haben, nämlich das Rechnungsmanagement.
 Viele Unternehmen erhalten Rechnungen, die pünktlich beglichen werden müssen. Verspätete Zahlungen ziehen
 Säumnisgebühren nach sich, die zu einer Verschwendung von Geld führen. Bevor eine Rechnung bezahlt werden kann, muss sie
