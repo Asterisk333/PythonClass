@@ -19,7 +19,7 @@ class Hund(Tier):
         self.rasse = rasse
 
     def beschreibe_tier(self):
-        return f"{super().beschreibe_tier()}, und ist ein {self.rasse}"
+        return f"{super().beschreibe_tier()} und ist ein {self.rasse}"
 
 
 class Katze(Tier):
