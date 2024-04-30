@@ -28,7 +28,7 @@ class Katze(Tier):
         self.farbe = farbe
 
     def beschreibe_tier(self):
-        return f"{super().beschreibe_tier()}, und ist {self.farbe}"
+        return f"{super().beschreibe_tier()} und ist {self.farbe}"
 
 
 milu = Katze("Milu", 7, "schwarz weiss gefleckt")
