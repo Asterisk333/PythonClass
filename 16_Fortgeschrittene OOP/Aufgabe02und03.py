@@ -54,6 +54,32 @@ class SavingsAccount(BankAccount):
         return f"Zinsen hinzugefügt. Neuer Kontostand: {self.balance} CHF"
 
 
+class NotifyingSavingsAccount(SavingsAccount):
+    def __init__(self, pin, zinssatz, schwelle):
+        super().__init__(zinssatz, pin)
+        self.schwelle = schwelle
+
+    def schwellenwertPruefen(self):
+        if self.balance >= self.schwelle:
+            return f"die schwelle wurde erreicht"
+
+
+class VIPSavingAccount(SavingsAccount):
+    def __init__(self, pin, zinssatz, schwelle):
+        super().__init__(zinssatz, pin)
+
+    def zinsHinzufuegen(self):
+        if self.balance < 10000:
+            print("1% Zins hinzugefügt, ", self.balance * 0.01)
+            self.balance *= 1.01
+        elif self.balance < 25000:
+            print("2% Zins hinzugefügt, ", self.balance * 0.02)
+            self.balance *= 1.02
+        elif self.balance >= 25000:
+            print("3% Zins hinzugefügt, ", self.balance * 0.03)
+            self.balance *= 1.03
+
+
 class FeeSavingsAccount(SavingsAccount):
     # FeeSavingsAccount that charges a fee for withdrawals
 
@@ -84,7 +110,7 @@ print("------------------------------------------")
 
 print("Sparaccount:")
 # Beispiel zur Verwendung der Klassen
-spar_konto = SavingsAccount(pin='1234', zinssatz=0.05)
+spar_konto = NotifyingSavingsAccount(pin='1234', zinssatz=0.05, schwelle=1001)
 print(spar_konto.deposit('1234', 1000))  # Einzahlung von 1000 CHF
 print(spar_konto.zinsen_hinzufuegen())  # Zinsen hinzufügen
 print("------------------------------------------")
