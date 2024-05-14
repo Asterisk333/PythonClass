@@ -6,16 +6,15 @@ import os
 
 
 def count_word_occurrences_in_files(directory_path, target_word):
-
     word_counts = {}
     # Durchsuche alle Dateien im Verzeichnis
-    for dateiname in os.listdir(directory_path):
-        if dateiname.endswith(".txt"):
-            file_path = os.path.join(directory_path, dateiname)
+    for filename in os.listdir(directory_path):
+        if filename.endswith(".txt"):
+            file_path = os.path.join(directory_path, filename)
             with open(file_path, "r", encoding="utf-8") as file:
                 content = file.read()
                 occurrences = content.lower().count(target_word.lower())
-                word_counts[dateiname] = occurrences
+                word_counts[filename] = occurrences
 
     return word_counts
 

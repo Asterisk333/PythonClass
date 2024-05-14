@@ -5,9 +5,9 @@
 import os
 
 
-def find_files_with_string(root_directory, search_string):
+def find_files_with_string(directory, search_string):
     matching_files = []
-    for root, dirs, files in os.walk(root_directory):
+    for root, dirs, files in os.walk(directory):
         for filename in files:
             if search_string in filename:
                 matching_files.append(os.path.join(root, filename))
@@ -15,8 +15,8 @@ def find_files_with_string(root_directory, search_string):
 
 
 # Beispielaufruf
-verzeichnis = "./"
-such_string = "hallo"
-gefundene_dateien = find_files_with_string(verzeichnis, such_string)
-for datei in gefundene_dateien:
-    print(datei)
+directory = "./"
+search_string = "hallo"
+found_files = find_files_with_string(directory, search_string)
+for file in found_files:
+    print(file)

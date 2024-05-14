@@ -6,14 +6,12 @@ import os
 
 def find_jpg_files(directory_path):
     jpg_files = []
-
-    if os.path.isdir(directory_path):
+    try:
         for file in os.listdir(directory_path):
             if file.endswith('.jpg'):
                 jpg_files.append(file)
-    else:
-        print(f"Der angegebene Pfad {directory_path} ist kein Verzeichnis.")
-
+    except FileNotFoundError:
+        print(f"Directory {directory_path} not found")
     return jpg_files
 
 
