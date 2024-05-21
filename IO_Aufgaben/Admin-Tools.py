@@ -39,19 +39,19 @@ def run_terminal():
     print("Welcome to the Python Admin-Tools")
     while userinput != 'exit':
         userinput = input(">>>")
-        if userinput.__contains__(' '):
-            userinput, additional = userinput.split(' ', 1)
-        else:
-            additional = ''
         if validate_text_input(userinput):
-            if userinput == 'cwd':
-                current_directory()
-            elif userinput == 'cd':
-                change_directory(additional)
-            elif userinput == 'ls':
-                list_contents(additional)
+            if userinput.__contains__(' '):
+                userinput, additional = userinput.split(' ', 1)
             else:
-                print("Invalid Input")
+                additional = ''
+                if userinput == 'cwd':
+                    current_directory()
+                elif userinput == 'cd':
+                    change_directory(additional)
+                elif userinput == 'ls':
+                    list_contents(additional)
+        else:
+            print("Invalid Input")
 
 
 run_terminal()
