@@ -69,7 +69,7 @@ def insert_orga(name, locaton=0, status=0):
     collection_name.insert_one(orga)
 
 
-def display_person_data(vorname=None):
+def display_person_data(search=None):
     dbname = get_database()
     persons_collection = dbname["persons"]
 
@@ -83,18 +83,17 @@ def display_person_data(vorname=None):
             }
         },
         {
-            "$match": {
-                "vorname": "Aares",
-                "nachname": None
-            }
-        },
-        {
             "$project": {
                 "_id": 1,
                 "vorname": 1,
                 "nachname": 1,
                 "status": 1,
                 "orga_name": {"$arrayElemAt": ["$orga_info.name", 0]}
+            }
+        },
+        {
+            "$match": {
+                "$or": [{"vorname": search}, {"nachname": search}, {"status": search}, {"orga_name": search}]
             }
         }
     ]
@@ -104,15 +103,16 @@ def display_person_data(vorname=None):
     # Display the results
     for doc in result:
         print(
-            f"Person ID: {doc['_id']}, Vorname: {doc['vorname']}, Name: {doc['nachname']}, Status: {doc['status']}, Orga Name: {doc['orga_name'].strip("[]'")}")
+            f"Person ID: {doc['_id']}, Vorname: {doc['vorname']}, Name: {doc['nachname']}, Status: {doc['status']}, "
+            f"Orga Name: {doc['orga_name'].strip("[]'")}")
 
 
 if __name__ == "__main__":
-    # insert_orga("PD", 1291, 0)
-    # insert_person("Hen", "dings", "fib", 0)
+    # insert_orga("Zivi", 0, 0)
+    # insert_person("Himano", "Keinplan", "zivi", 4)
     # insert_person("Hen", "bums", "fib", 0)
     # print(get_orga_id("FIB"))
 
     # print(get_id("persons"))
 
-    display_person_data()
+    display_person_data("fib")
