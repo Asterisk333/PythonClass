@@ -1,0 +1,28 @@
+{
+  "musikbibliothek": {
+    "alben": [
+      {
+        "titel": "Greatest Hits",
+        "künstler": "Queen",
+        "erscheinungsjahr": 1981,
+        "status": "verfügbar",
+        "songs": [
+          {
+            "titel": "Bohemian Rhapsody",
+            "dauer": "6:07"
+          },
+          {
+            "titel": "We Will Rock You",
+            "dauer": "2:02"
+          }
+        ]
+      }
+    ],
+    "künstler": [
+      {
+        "name": "Queen",
+        "alben": ["Greatest Hits"]
+      }
+    ]
+  }
+}
