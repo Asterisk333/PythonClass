@@ -1,0 +1,5 @@
+Python-Programm
+das mehrere Text-Files
+in einem
+einzelnen Text-File
+zusammenführt

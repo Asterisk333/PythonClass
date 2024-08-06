@@ -1,0 +1,8 @@
+Hello World
+Lemon Tree
+Hello ilir
+Python-Programm
+das mehrere Text-Files
+in einem
+einzelnen Text-File
+zusammenführt
