@@ -1,0 +1,26 @@
+{
+    "nummer": 5,
+    "kunde": {
+        "name": "HFTM AG",
+        "nummer": 5
+    },
+    "lieferDatum": "15.09.2022",
+    "positionen": [
+        {
+            "nummer": 1,
+            "menge": 10,
+            "artikel": {
+                "bezeichner": "HFTM Fan-Bag",
+                "nummer": 1
+            }
+        },
+        {
+            "nummer": 2,
+            "menge": 1,
+            "artikel": {
+                "bezeichner": "HFTM Cap",
+                "nummer": 2
+            }
+        }
+    ]
+}
