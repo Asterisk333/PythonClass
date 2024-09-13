@@ -1,0 +1,14 @@
+<products>
+    <product id="1">
+        <name>Product A</name>
+        <price>19.90</price>
+        <category>Electronics</category>
+        <stock>100</stock>
+    </product>
+    <product id="2">
+        <name>Product B</name>
+        <price>5.50</price>
+        <category>Stationery</category>
+        <stock>200</stock>
+    </product>
+</products>
