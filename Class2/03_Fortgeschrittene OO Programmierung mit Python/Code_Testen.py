@@ -74,10 +74,10 @@ class TestDocument(unittest.TestCase):
         self.assertFalse(result)
 
     def test_load_success(self):
-        self.mock_db.load_document.return_value = "This is a test document."
+        self.mock_db.load_document.return_value = "Das ist ein test doc."
         result = self.doc.load(self.mock_db)
         self.assertTrue(result)
-        self.assertEqual(self.doc.content, "This is a test document.")
+        self.assertEqual(self.doc.content, "Das ist ein test doc.")
         self.mock_db.load_document.assert_called_with("test_doc")
 
     def test_load_failure(self):
