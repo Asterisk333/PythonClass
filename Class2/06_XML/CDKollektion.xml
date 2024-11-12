@@ -1,0 +1,14 @@
+<CDCollection>
+    <CD>
+        <Title>Titel der CD</Title>
+        <Artist>Künstler</Artist>
+        <ReleaseYear>2024</ReleaseYear>
+        <Genre>Genre</Genre>
+    </CD>
+    <CD>
+        <Title>Another CD Title</Title>
+        <Artist>Another Artist</Artist>
+        <ReleaseYear>2023</ReleaseYear>
+        <Genre>Another Genre</Genre>
+    </CD>
+</CDCollection>

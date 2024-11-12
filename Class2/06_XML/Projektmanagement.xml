@@ -1,0 +1,67 @@
+<ProjectManagement>
+    <Project>
+        <ProjectInfo>
+            <ProjectName>Projektname</ProjectName>
+            <Description>Projektbeschreibung</Description>
+            <StartDate>2024-01-01</StartDate>
+            <EndDate>2024-12-22</EndDate>
+        </ProjectInfo>
+
+        <Tasks>
+            <Task>
+                <TaskID>1</TaskID>
+                <Title>Aufgabentitel</Title>
+                <Description>Beschreibung der Aufgabe</Description>
+                <StartDate>2024-01-01</StartDate>
+                <EndDate>2024-02-22</EndDate>
+                <Status>In Bearbeitung</Status>
+                <Priority>Hoch</Priority>
+                <AssignedTo>Teammitglied1, Teammitglied2</AssignedTo>
+            </Task>
+            <Task>
+                <TaskID>2</TaskID>
+                <Title>Andere Aufgabe</Title>
+                <Description>Weitere Beschreibung</Description>
+                <StartDate>2024-03-01</StartDate>
+                <EndDate>2024-03-22</EndDate>
+                <Status>Abgeschlossen</Status>
+                <Priority>Mittel</Priority>
+                <AssignedTo>Teammitglied3</AssignedTo>
+            </Task>
+        </Tasks>
+
+        <Milestones>
+            <Milestone>
+                <Title>Erster Meilenstein</Title>
+                <Description>Beschreibung des Meilensteins</Description>
+                <DueDate>2024-03-18</DueDate>
+                <DependentTasks>1</DependentTasks>
+            </Milestone>
+            <Milestone>
+                <Title>Zweiter Meilenstein</Title>
+                <Description>Weiterer Meilenstein</Description>
+                <DueDate>2024-09-01</DueDate>
+                <DependentTasks>1, 2</DependentTasks>
+            </Milestone>
+        </Milestones>
+
+        <TeamMembers>
+            <TeamMember>
+                <Name>Max Mustermann</Name>
+                <Role>Entwickler</Role>
+                <Contact>
+                    <Phone>+1234567890</Phone>
+                    <Email>max.mustermann@example.com</Email>
+                </Contact>
+            </TeamMember>
+            <TeamMember>
+                <Name>Erika Musterfrau</Name>
+                <Role>Projektleiter</Role>
+                <Contact>
+                    <Phone>+1234567890</Phone>
+                    <Email>erika.musterfrau@example.com</Email>
+                </Contact>
+            </TeamMember>
+        </TeamMembers>
+    </Project>
+</ProjectManagement>

@@ -1,0 +1,22 @@
+<Timetable>
+    <Lesson>
+        <Day>Montag</Day>
+        <CourseName>Mathematik</CourseName>
+        <Time>
+            <Start>08:00</Start>
+            <End>10:00</End>
+        </Time>
+        <Instructor>Dozent Name</Instructor>
+        <Room>101</Room>
+    </Lesson>
+    <Lesson>
+        <Day>Dienstag</Day>
+        <CourseName>Informatik</CourseName>
+        <Time>
+            <Start>10:00</Start>
+            <End>12:00</End>
+        </Time>
+        <Instructor>Anderer Dozent</Instructor>
+        <Room>202</Room>
+    </Lesson>
+</Timetable>
