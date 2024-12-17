@@ -1,0 +1,14 @@
+{
+    "books": [
+        {
+            "title": "Python Programming",
+            "author": "John Smith",
+            "year": 2021
+        },
+        {
+            "title": "Web Development",
+            "author": "Jane Doe",
+            "year": 2020
+        }
+    ]
+}

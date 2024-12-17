@@ -1,0 +1,17 @@
+<employees>
+ <employee>
+ <name>Alice Johnson</name>
+ <projects>
+ <project>Marketing Campaign</project>
+ <project>Product Launch</project>
+ </projects>
+ </employee>
+ <employee>
+ <name>Bob Smith</name>
+ <projects>
+ <project>Website Redesign</project>
+ <project>Customer Support</project>
+ </projects>
+ </employee>
+ <!-- Weitere Mitarbeiter... -->
+</employees>

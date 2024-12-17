@@ -1,0 +1,13 @@
+<books>
+ <book>
+ <title>The Catcher in the Rye</title>
+ <author>J.D. Salinger</author>
+ <age>72</age>
+ </book>
+ <book>
+ <title>To Kill a Mockingbird</title>
+ <author>Harper Lee</author>
+ <age>89</age>
+ </book>
+ <!-- Weitere Bücher... -->
+</books>
