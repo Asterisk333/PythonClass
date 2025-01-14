@@ -1,4 +1,4 @@
-bewertung = 55
+bewertung = 25
 
 
 def note(bewertung):

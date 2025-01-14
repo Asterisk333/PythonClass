@@ -3,5 +3,5 @@ seiteB = int(input("Bitte geben Sie die Breite ein: "))
 
 if seiteA == seiteB:
     print('Das ist ein Quadrat')
-    
-print('Das ist kein Quadrat')
+else:
+    print('Das ist kein Quadrat')
