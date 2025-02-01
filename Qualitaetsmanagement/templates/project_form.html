@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ action }} Projekt</h2>
+<form method="POST">
+  <div class="form-group">
+    <label for="name">Projektname</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="Projektname" required value="{{ project.name if project }}">
+  </div>
+  <div class="form-group">
+    <label for="description">Beschreibung</label>
+    <textarea class="form-control" id="description" name="description" rows="3" placeholder="Beschreibung">{{ project.description if project }}</textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">{{ action }}</button>
+</form>
+{% endblock %}

@@ -1,0 +1,12 @@
+<!-- templates/index.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Willkommen zum Projektmanagement Tool!</h1>
+    <p class="lead">Verwalten Sie Ihre Projekte effizient und einfach.</p>
+    <hr class="my-4">
+    <p>Bitte melden Sie sich an, um fortzufahren.</p>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('login') }}" role="button">Login</a>
+</div>
+{% endblock %}

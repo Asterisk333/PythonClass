@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ action }} Gruppe</h2>
+<form method="POST">
+  <div class="form-group">
+    <label for="name">Gruppenname</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="Gruppenname" required value="{{ group.name if group }}">
+  </div>
+  <button type="submit" class="btn btn-primary">{{ action }}</button>
+</form>
+{% endblock %}

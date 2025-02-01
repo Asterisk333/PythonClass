@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ action }} Benutzer</h2>
+<form method="POST">
+  <div class="form-group">
+    <label for="username">Benutzername</label>
+    <input type="text" class="form-control" id="username" name="username" placeholder="Benutzername" required value="{{ user.username if user }}">
+  </div>
+  <div class="form-group">
+    <label for="password">Passwort {% if action == 'Bearbeiten' %}(nur angeben, wenn geändert){% endif %}</label>
+    <input type="password" class="form-control" id="password" name="password" placeholder="Passwort {% if action == 'Bearbeiten' %}(neu){% endif %}">
+  </div>
+  <div class="form-group">
+    <label for="groups">Gruppen</label>
+    <select name="groups" id="groups" class="form-control" multiple>
+      {% for group in groups %}
+        <option value="{{ group.id }}" {% if user and group in user.groups %}selected{% endif %}>{{ group.name }}</option>
+      {% endfor %}
+    </select>
+    <small class="form-text text-muted">Mehrfachauswahl möglich (STRG/CMD gedrückt halten).</small>
+  </div>
+  <button type="submit" class="btn btn-primary">{{ action }}</button>
+</form>
+{% endblock %}

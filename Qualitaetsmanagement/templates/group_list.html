@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Gruppenverwaltung</h2>
+<a href="{{ url_for('group_create') }}" class="btn btn-success mb-3">Neue Gruppe erstellen</a>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Gruppenname</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for group in groups %}
+    <tr>
+      <td>{{ group.id }}</td>
+      <td>{{ group.name }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
