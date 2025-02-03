@@ -1,0 +1,83 @@
+# Fasnacht 2025 Playlist
+
+- [-] **The Beatles - Come Together**
+- [-] **Falco - Der Kommissar**
+- [/] **Dj S TV - Earth Wind & Fire - September (Dj ''S'' Rework)**
+- [-] **Jan Delay - Disko (Radio Edit long)**
+- [/] **Noise Ninjas - Vengaboys - Boom, Boom, Boom, Boom [Noise Ninjas & R.G Festival Mix] #happycore #hardstyle #festival**
+- [-] **Vengaboys - Boom, Boom, Boom, Boom!!**
+- [/] **WESH - KISS - I WAS MADE FOR LOVING (WESH REMIX)**
+- [/] **MOONLGHT - Steppenwolf - Born To Be Wild (MOONLGHT Remix)**
+- [/] **Tobiasz Stanford - MOONLIGHT - Free Bird (Extended Mix)**
+- [/] **Will Bailey - Fortunate Son (MOONLIGHT) Remix + Good Morning Vietnam**
+- [/] **Dimoon Music - Scarface - Push it to the limit (Extended Version)**
+- [/] **JF Jake - Modern Talking - Brother Louie (JF Jake Bounce Remix)**
+- [/] **JF Jake - Modern Talking - Cheri Cheri Lady (JF Jake Bounce Remix)**
+- [/] **HBz - Achim Reichel - Aloha Heja He (HBz Bounce Remix)**
+- [-] **Boney M. - Daddy Cool**
+- [?] **Don Omar - Danza Kuduro (feat. Lucenzo)**
+- [-] **Endor - Pump It Up (Extended Mix)**
+- [+] [**Endor - Pump It Up**](https://www.youtube.com/watch?v=hRGIrrjuLYA)
+- [+] [**Tiësto & Black Eyed Peas - Pump It Louder | Remix 2022**](https://www.youtube.com/watch?v=MflC3UCGx9E)
+- [/] **Syzz - Gimme! Gimme! Gimme! (a man after midnight)**
+- [?] **David Guetta und Bebe Rexha - I'm Good (Blue)**
+- [-] **Avicii - Levels**
+- [/] **DJ Antoine - Ma Chérie (DJ Antoine & Mad Mark 2k12 Radio Edit) (feat. The Beat Shakers)**
+- [-] **GrossKhan - Madonna - Hung up (Great Remix)**
+- [/] **ALTÉGO - LADY GAGA X MADONNA - HUNG UP ON MARY (ALTÉGO MIX) | TIKTOK WEDNESDAY ADDAMS SOUND**
+- [/] **Luude - Down Under (feat. Colin Hay)**
+- [-] **Village People - YMCA (Original Version 1978)**
+- [+] [**The Village People - YMCA (Teddy Cream Bootleg)**](https://www.youtube.com/watch?v=IrUHnPjq_TM)
+- [/] **Erikootsa - Gigi D'Agostino - L'Amour Toujours (Erikootsa Hardstyle Remix) |HQ Videoclip|**
+- [/] **HBz, LIZOT und 2 Engel & Charlie - Bisschen Spaß**
+- [/] **JUSTNIC MUSIC RECORDS - Rhythm Is A Dancer - (Luca-Dante Spadafora x Niklas Dee Remix) [HARDSTYLE PSY TRANCE BOOTLEG]**
+- [/] **HBz, Jerome und Robin White - Bittersweet Goodbye**
+- [/] **Tony Mendes - La Bouche - Be my Lover (Extended Mix - Tony Mendes Video Re Edit)**
+- [/] **RJEY MUSIC - Vinylshakerz - One Night In Bangkok (RJEY Bootleg)**
+- [/] **HBz - Italobrothers - Moonlight Shadow (HBz Remix)**
+- [/] **Cutting Crew - Cutting Crew - (I Just) Died In Your Arms Tonight (DJ Guarja Remix)**
+- [-] **Groove Nation - Murray Head - One Night In Bangkok (Groove Nation Remix)**
+- [-] **Syzz - Gimme Gimme Gimme (a man after midnight)**
+- [/] **BENNETT - Vois sur ton chemin (Techno Mix)**
+- [/] **Mr. Fullop - AC/DC - T.N.T x Fake ID (Mr. Fullop MASHUP)**
+- [/] **Dj Kubox Official - Scooter - Always Hardcore (DJ KUBOX BOOTLEG) ! NOWOŚĆ 2022 !**
+- [/] **Scooter - How Much Is The Fish?**
+- [/] **Axemo - STOP WITH IT (La La La La)**
+- [/] **NATT - Shake It**
+- [/] **Techno Tazzy und Tazzy - SOMEBODY TO LOVE (TECHNO)**
+- [/] **Cody Ko und MOONLGHT - Should I Stay Or Should I Go**
+- [/] **TIM PLVNK - ANNE KAFFEEKANNE**
+- [/] **Luxons Produkcja - Ace Of Base - Happy Nation (Luxons Remix) 2023**
+- [/] **Hu2dz - Starstylers - Keep On Moving (Raveboiz Happy Hardcore Bootleg) | HQ Videoclip**
+- [/] **R3HAB, INNA und SASH! - Rock My Body**
+- [/] **Gerry Read und Boney M. - Ma Baker**
+- [/] **HBz und THOVI - Ricky Martin - Livin' la vida loca (HBz Remix)**
+- [/] **Dope Land Music - ✪ Fergie - A Little Party Never Killed Nobody (All We Got) Feat. Q - Tip & GoonRock (JUKEL Bootleg)**
+- [-] **Michael Jackson - Billie Jean - Billie Jean (Single Version)**
+- [/] **Kungs - Never Going Home**
+- [/] **DJ Gollum und Empyre One - The Bad Touch 2k20**
+- [/] **MATSON PL - Italian Disco Mafia - Buona Sera Ciao Ciao (Matson Remix)**
+- [/] **amy. - Jayke Mac - Be My Lover ♬**
+- [/] **LIZOT und Boney M. - Daddy Cool**
+- [/] **Best of Remix Official - Modern Talking - Cheri Cheri Lady (T-Beat Rework) 2k23**
+- [/] **MOONLGHT - Bee Gees - Stayin' Alive (MOONLGHT Remix)**
+
+---
+
+## Removed Tracks `[-]`
+1. **The Beatles - Come Together**
+2. **Falco - Der Kommissar**
+3. **Jan Delay - Disko (Radio Edit long)**
+4. **Vengaboys - Boom, Boom, Boom, Boom!!**
+5. **Boney M. - Daddy Cool**
+6. **Endor - Pump It Up (Extended Mix)**
+7. **Avicii - Levels**
+8. **GrossKhan - Madonna - Hung up (Great Remix)**
+9. **Village People - YMCA (Original Version 1978)**
+10. **Groove Nation - Murray Head - One Night In Bangkok (Groove Nation Remix)**
+11. **Syzz - Gimme Gimme Gimme (a man after midnight)**
+12. **Michael Jackson - Billie Jean - Billie Jean (Single Version)**
+
+## Unsure Tracks `[?]`
+1. **Don Omar - Danza Kuduro (feat. Lucenzo)**
+2. **David Guetta und Bebe Rexha - I'm Good (Blue)**

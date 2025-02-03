@@ -1,0 +1,17 @@
+<!-- templates/create_project.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Neues Projekt anlegen</h2>
+<form method="POST" action="{{ url_for('create_project') }}">
+    <div class="form-group">
+        <label for="name">Projektname</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Projektname eingeben" required>
+    </div>
+    <div class="form-group">
+        <label for="description">Beschreibung</label>
+        <textarea class="form-control" id="description" name="description" rows="3" placeholder="Projektbeschreibung"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Projekt erstellen</button>
+</form>
+{% endblock %}

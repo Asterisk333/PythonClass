@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Benutzerverwaltung</h2>
+<a href="{{ url_for('user_create') }}" class="btn btn-success mb-3">Neuen Benutzer erstellen</a>
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Benutzername</th>
+      <th>Gruppen</th>
+      <th>Aktionen</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for user in users %}
+    <tr>
+      <td>{{ user.id }}</td>
+      <td>{{ user.username }}</td>
+      <td>
+        {% for grp in user.groups %}
+          <span class="badge badge-info">{{ grp.name }}</span>
+        {% endfor %}
+      </td>
+      <td>
+        <a href="{{ url_for('user_edit', user_id=user.id) }}" class="btn btn-primary btn-sm">Bearbeiten</a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
