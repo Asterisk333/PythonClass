@@ -1,0 +1,12 @@
+<filmliste>
+    <film genre="Action" dauer="130">
+        <titel>Action Movie</titel>
+        <regisseur>Max Mustermann</regisseur>
+        <erscheinungsjahr>2021</erscheinungsjahr>
+    </film>
+    <film genre="Drama" dauer="110">
+        <titel>Dramatic Life</titel>
+        <regisseur>Erika Musterfrau</regisseur>
+        <erscheinungsjahr>2019</erscheinungsjahr>
+    </film>
+</filmliste>
